@@ -6,11 +6,11 @@
 		<groupId>com.q.wx</groupId>
 		<artifactId>applet</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-	</parent>
+	</parent> 
 	<groupId>com.q.wechat</groupId>
 	<artifactId>wechat</artifactId>
 
-	<properties>
+	<properties> 
 		<springframework.version>4.0.0.RELEASE</springframework.version>
 		<slf4j.version>1.7.25</slf4j.version>
 		<javax.servlet.version>3.1.0</javax.servlet.version>
@@ -71,8 +71,12 @@
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
 			<artifactId>pagehelper-spring-boot-starter</artifactId>
-			<version>1.1.2</version>
+			<version>1.1.2</version> 
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+			<version>1.4.0</version>
+		</dependency>
 	</dependencies>
 </project>
